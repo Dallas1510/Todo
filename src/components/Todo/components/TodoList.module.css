@@ -1,0 +1,27 @@
+.todoWrapper {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fdfdfdef;
+  &:hover {
+    background-color: #f3f3f3ef;
+  }
+}
+.checkLabel {
+  width: 100%;
+  input:has(:checked) label {
+    text-decoration: underline;
+  }
+  label {
+    text-align: left;
+    &.completed {
+      text-decoration: line-through;
+    }
+  }
+  input {
+    width: 36px;
+    height: 36px;
+    min-height: 0;
+    min-width: 0;
+  }
+}
