@@ -804,6 +804,11 @@
     "@types/babel__core" "^7.20.5"
     react-refresh "^0.14.0"
 
+"@wemake-services/eslint-config-javascript@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@wemake-services/eslint-config-javascript/-/eslint-config-javascript-2.1.1.tgz#07cac503cad0e76965ad85a5717df54f4ffb8370"
+  integrity sha512-q/rlofhVBaPnhLQhDmZtoQVMUy77fSZt3gd6tuuJvI43fqRGZ7VxkgjSlkhwYn88WwzynA87VPVIgot6KzhFaw==
+
 "@wemake-services/eslint-config-typescript@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@wemake-services/eslint-config-typescript/-/eslint-config-typescript-3.1.1.tgz#2da59e3d2e332ad4f551142a475f397837594d6b"
